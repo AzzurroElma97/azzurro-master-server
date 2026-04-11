@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Passaggi Master",
+    "slug": "passaggi-master",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2979FF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.azzurro.passaggimaster",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#2979FF"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b31be624-fea2-459f-b838-cf1f4d02d4f3"
+      }
+    }
+  }
+}
